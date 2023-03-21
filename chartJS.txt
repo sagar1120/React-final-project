@@ -1,0 +1,48 @@
+https://www.youtube.com/watch?v=eAsII_yr6tc
+ 
+import { Line } from 'react-chartjs-2';
+
+
+class based App
+
+  constructor(props) {
+    super(props);
+
+     this.state = {
+  
+       data: {
+         labels:['1','2','3','4','5'],
+
+          datasets: [
+            {
+              label: "videos made",
+   	      backgrounColor: "rgba(255,0,255,0.75)",
+	      data: [4,5,1,10,32,2,12]
+            },
+	    {
+              label: "subscriptions",
+   	      backgrounColor: "rgba(255,0,255,0.75)",
+	      data: [14,15,10,1,12,22,22]
+            }
+         ]
+       }
+     }
+   }
+
+
+  render(){
+ 
+    return(
+      <div style={{position: 'relative', width: 600, height: 550}}>
+        <h3>Chart Sample</h3>
+
+        <Line
+          options={{
+            resposive:true
+          }}
+          data={this.state.data}
+        />  
+      </div>
+	
+    );
+  }	

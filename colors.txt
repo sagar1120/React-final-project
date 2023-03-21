@@ -1,0 +1,22 @@
+header-footer
+#567186
+
+background
+#4f657a
+
+squares
+#435c70
+
+form fields
+#54657d
+
+fields focus
+#60738e
+
+->border #748ba4
+
+amarillo
+#f5a623
+
+blanco 
+#fffefe
